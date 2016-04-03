@@ -1,6 +1,6 @@
 #! /bin/sh
 clear
-exe="main"
+exe="a.out"
 export GOPATH=`pwd`
 rm -f bin/$exe
 go install $exe
